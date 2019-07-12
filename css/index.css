@@ -209,3 +209,74 @@ footer nav a {
 
 /* Start of CSS code for about.html */
 
+.about-page-opening {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: baseline;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.first-row {
+    display: flex;
+    margin-left: 20px;
+    height: 500px;
+    align-items: flex-start;
+}
+
+.second-row {
+    display: flex;
+    margin-left: 20px;
+    height: 500px;
+}
+
+.strategy {
+    width: 50%;
+    height: 200px;
+}
+
+.how-we-work {
+    width: 50%;
+    height: 200px;
+}
+
+.places-we-work {
+    width: 50%;
+    height: 200px;
+}
+
+.collaboration {
+    width: 50%;
+    height: 200px;
+}
+
+.service-link {
+    border: solid black 1px;
+    margin-top: 85px;
+    padding: 10px;
+}
+
+.finisher {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+p {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+hr {
+    margin-top: 30px;
+}
