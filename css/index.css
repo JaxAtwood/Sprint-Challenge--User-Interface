@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+.page-opening {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: baseline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +127,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color:teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color:indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +205,98 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Start of CSS code for about.html */
+
+.about-page-opening {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: baseline;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.learn-more {
+    display: flex;
+    height: 900px;
+}
+
+.first-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.second-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.corner1 {
+    border-bottom: 1px dashed black;
+}
+
+.corner2 {
+    border-bottom: 1px dashed black;
+    margin-top: 30px;
+}
+
+.corner3 {
+    border-bottom: 1px dashed black;
+}
+
+.corner4 {
+    border-bottom: 1px dashed black;
+    margin-top: 30px;
+}
+
+.strategy {
+    margin-bottom: 30px;
+}
+
+.places-we-work {
+    margin-bottom: 30px;
+}
+
+.how-we-work {
+    margin-bottom: 30px;
+}
+
+.collaboration {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.service-link {
+    border: solid black 2px;
+    padding: 8px 27px;
+    border-radius: 10px;
+}
+
+.finisher {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
